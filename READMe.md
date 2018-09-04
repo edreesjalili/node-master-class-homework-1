@@ -7,7 +7,7 @@ A simple REST server implementation.
 A cert.pem and key.pem are required in the `app/https/` folder for the application to run.
 Configure the `app/config.js` folder for your needs otherwise it is fine the way it is.
 
-## Starting the applcation
+## Starting the application
 
 From the `app/` directory execute
 
@@ -28,7 +28,7 @@ i.e `NODE_ENV=production node index.js`
 
 ## Routes
 
-1. /hello
+1. `/hello`
    - Returns a JSON Object containing a message
    - **Valid Query Parameters**
      - name: Customizes the returned hello message
